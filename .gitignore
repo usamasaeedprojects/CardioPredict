@@ -205,3 +205,31 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ======================================
+# 🧠 Data Science Project Additions
+# ======================================
+
+# Conda environment
+env/
+
+# Data folders
+data/raw/
+data/processed/
+data/external/
+
+# Models
+models/
+*.pkl
+*.joblib
+
+# Reports and figures
+reports/
+reports/figures/
+
+# Streamlit app cache (if used)
+.streamlit/
+
+# Jupyter notebooks cache
+.ipynb_checkpoints
+notebooks/.ipynb_checkpoints/
